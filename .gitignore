@@ -1,0 +1,20 @@
+# 数据文件
+/data/*
+!/data/.gitkeep
+*.nii
+*.nii.gz
+*.dcm
+*.npy
+
+# 模型与结果
+/checkpoints/*
+!/checkpoints/.gitkeep
+/results/*
+!/results/.gitkeep
+
+# 环境变量与缓存
+__pycache__/
+*.pyc
+.env
+.idea/
+.vscode/
